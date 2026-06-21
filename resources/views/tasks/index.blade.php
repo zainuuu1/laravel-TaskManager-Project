@@ -3,7 +3,7 @@
 @section('content')
     <div class="flex justify-between items-center mb-8">
         <div>
-            <h1 class="text-3xl font-extrabold text-slate-800">My Tasks</h1>
+            <h1 class="text-3xl font-extrabold text-slate-800">My All Tasks</h1>
             <p class="text-slate-500 text-sm mt-1">
                 {{ $tasks->where('is_completed', false)->count() }} pending,
                 {{ $tasks->where('is_completed', true)->count() }} complete
