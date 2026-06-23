@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Latest code pull 
         run: |
-          cd /home/zain/laravel-project/task-manager
+          cd /home/laravel/laravel-project/laravel-TaskManager-Project/
           git pull origin main
 
       - name: Composer dependencies install 
